@@ -10,11 +10,11 @@ An automated Windows setup script that installs essential tools and configures a
 ✅ Git & Dotfiles Support – Clones and configures dotfiles.
 
 # 🔧 Installation
-Download the script\n
-git clone https://github.com/yourusername/WinSetupScript.git\n
-cd WinSetupScript\n
-Run the script\n
-powershell -ExecutionPolicy Bypass -File install.ps1
+Download the script  
+`git clone https://github.com/0xf90c/Zero2Dev.git`  
+`cd WinSetupScript`    
+Run the script  
+`powershell -ExecutionPolicy Bypass -File install.ps1`  
 
 # 🛠️ Software Installed
 Includes:
