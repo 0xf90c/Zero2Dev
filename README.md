@@ -3,11 +3,11 @@
 An automated Windows setup script that installs essential tools and configures a development environment using winget.
 
 # 📌Features
-✅ Automated Software Installation – Install selected apps via winget.
-✅ No Admin Required – Runs without admin privileges.
-✅ Checks & Skips Installed Apps – Prevents redundant installations.
-✅ Configures Development Tools – Sets up PowerShell profile, Windows Terminal, and more.
-✅ Git & Dotfiles Support – Clones and configures dotfiles.
+✅ Automated Software Installation – Install selected apps via winget.  
+✅ No Admin Required – Runs without admin privileges.  
+✅ Checks & Skips Installed Apps – Prevents redundant installations.  
+✅ Configures Development Tools – Sets up PowerShell profile, Windows Terminal, and more.  
+✅ Git & Dotfiles Support – Clones and configures dotfiles.  
 
 # 🔧 Installation
 Download the script  
