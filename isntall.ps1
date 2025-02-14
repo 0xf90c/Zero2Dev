@@ -86,7 +86,7 @@ foreach ($index in $selectedApps) {
         } else {
             Write-Host "Installing $appName..." -ForegroundColor Green
             Show-Progress "Installing $appName..."
-            Start-Process -NoNewWindow -Wait -FilePath "winget" -ArgumentList "install --id $appId --scope user --silent --accept-source-agreements --accept-package-agreements --verbose-logs"
+            winget install --id $appId --scope user --silent --accept-source-agreements --accept-package-agreements | Tee-Object -FilePath "install_log.txt"
         }
     } else {
         Write-Host "Invalid selection: $index" -ForegroundColor Red
