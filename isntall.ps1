@@ -1,5 +1,5 @@
 # Trying bypass restrictions temporarily, if user is not admin
-powershell -ExecutionPolicy Bypass -File isntall.ps1
+powershell -ExecutionPolicy Bypass -File install.ps1
 
 # Check for Windows Updates
 Write-Host "Checking for Windows updates..." -ForegroundColor Cyan
