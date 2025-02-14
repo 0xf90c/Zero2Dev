@@ -30,33 +30,15 @@ function Show-Progress {
 $apps = @{
     "1" = @{ Name = "Google Chrome"; ID = "Google.Chrome" }
     "2" = @{ Name = "Mozilla Firefox"; ID = "Mozilla.Firefox" }
-    "3" = @{ Name = "7-Zip"; ID = "7zip.7zip" }
-    "4" = @{ Name = "Visual Studio Code"; ID = "Microsoft.VisualStudioCode" }
-    "5" = @{ Name = "Git"; ID = "Git.Git" }
-    "6" = @{ Name = "Node.js"; ID = "OpenJS.NodeJS" }
-    "7" = @{ Name = "Python"; ID = "Python.Python.3" }
-    "8" = @{ Name = "Docker Desktop"; ID = "Docker.DockerDesktop" }
-    "9" = @{ Name = "Postman"; ID = "Postman.Postman" }
-    "10" = @{ Name = "Spotify"; ID = "Spotify.Spotify" }
-    "11" = @{ Name = "VLC Media Player"; ID = "VideoLAN.VLC" }
-    "12" = @{ Name = "WinRAR"; ID = "RARLab.WinRAR" }
-    "13" = @{ Name = "qBittorrent"; ID = "qBittorrent.qBittorrent" }
-    "14" = @{ Name = "Notepad++"; ID = "Notepad++.Notepad++" }
-    "15" = @{ Name = "PowerToys"; ID = "Microsoft.PowerToys" }
-    "16" = @{ Name = "ShareX"; ID = "ShareX.ShareX" }
-    "17" = @{ Name = "Malwarebytes"; ID = "Malwarebytes.Malwarebytes" }
-    "18" = @{ Name = "Bitwarden"; ID = "Bitwarden.Bitwarden" }
-    "19" = @{ Name = "Rufus"; ID = "Rufus.Rufus" }
-    "20" = @{ Name = "CCleaner"; ID = "Piriform.CCleaner" }
-    "21" = @{ Name = "HWMonitor"; ID = "CPUID.HWMonitor" }
-    "22" = @{ Name = "Windows Subsystem for Linux (WSL)"; ID = "Microsoft.WSL" }
-    "23" = @{ Name = "PuTTY"; ID = "PuTTY.PuTTY" }
-    "24" = @{ Name = "Microsoft Office"; ID = "Microsoft.Office" }
-    "25" = @{ Name = "LibreOffice"; ID = "TheDocumentFoundation.LibreOffice" }
-    "26" = @{ Name = "Zoom"; ID = "Zoom.Zoom" }
-    "27" = @{ Name = "Telegram"; ID = "Telegram.TelegramDesktop" }
-    "28" = @{ Name = "Steam"; ID = "Valve.Steam" }
-    "29" = @{ Name = "OBS Studio"; ID = "OBSProject.OBSStudio" }
+    "3" = @{ Name = "Telegram"; ID = "Telegram.TelegramDesktop" }
+    "4" = @{ Name = "Git"; ID = "Git.Git" }
+    "5" = @{ Name = "Visual Studio Code"; ID = "Microsoft.VisualStudioCode" }
+    "6" = @{ Name = "Rust"; ID = "Rustlang.Rustup" }
+    "7" = @{ Name = "WinRAR"; ID = "RARLab.WinRAR" }
+    "8" = @{ Name = "Transmission"; ID = "Transmission.Transmission" }
+    "9" = @{ Name = "Rufus"; ID = "Rufus.Rufus" }
+    "10" = @{ Name = "Zoom"; ID = "Zoom.Zoom" }
+    "11" = @{ Name = "Steam"; ID = "Valve.Steam" }
 }
 
 # Display available apps
